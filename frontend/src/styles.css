@@ -2,14 +2,15 @@
   background-color: #fefefe;
 }
 .Navbar {
+    
 }
 .NavElement {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-
+border-radius: 12px;
   padding: 24px;
-  background: #ffff;
+  background: #fefefe;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .Logo {
@@ -21,7 +22,7 @@
 .NavItem {
   display: flex;
   flex-direction: row;
-  gap: 14px;
+  gap: 16px;
 }
 .NavItem a {
   text-decoration: none;
@@ -34,4 +35,181 @@
 .NavItem a:hover {
   color: rgb(0, 202, 0);
   font-weight: 600;
+}
+.heroSection {
+  margin: 12px;
+  background-color: #fefefe;
+}
+.heroDetail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 24px;
+}
+.rightDetail {
+  padding: 24px;
+}
+.rightDetail img {
+  width: 500px;
+  height: 500px;
+  border-radius: 24px;
+}
+.leftDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.leftDetail h1 {
+  font-size: 44px;
+  width: 80%;
+  font-weight: 600;
+  margin-top: 0;
+}
+.leftDetail h4{
+    color: green;
+
+}
+.DetailPara {
+  font-size: 20px;
+  margin-top: 0;
+  color: rgb(83, 83, 83);
+  background-color: none;
+}
+.leftDetail button {
+  background-color: rgb(0, 202, 0);
+  color: white;
+  padding: 14px;
+  width: 20%;
+  font-size: 14px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+.leftDetail button:hover {
+  background-color: rgb(2, 153, 2);
+}
+.recipeSection {
+margin-top: 24px;
+}
+.recipeContainer {
+  padding: 14px;
+  
+}
+.RecipeHeading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.recipeContainer h2 {
+  font-size: 24px;
+  font-weight: 600;
+  padding-left: 12px;
+}
+.recipeContainer .ExtraContent{
+    color: rgb(154, 154, 154);
+    font-weight: 600;
+    padding: 12px;
+}
+.recipeContainer .ExtraContent:hover{
+    color: red;
+    cursor: pointer;
+}
+.foodFilter{
+    padding-left: 12px;
+    padding-bottom: 8px;
+    
+}
+.foodFilter select{
+    background-color: #ffff;
+    border:  1px solid rgb(2, 153, 2);
+    border-radius: 12px;
+    padding:12px;
+    width: 20%;
+    color: rgb(103, 101, 101);
+}
+.foodFilter select option{
+    background-color: #efefef;
+
+
+}
+
+
+.recipeCards {
+  padding: 8px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  flex-direction: row;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.RecipeCard {
+    
+  width: 360px;
+  height: 540px;
+  background-color: #efefef;
+  border-radius: 24px;
+}
+
+.RecipeCard img {
+  display: flex;
+  width: 340px;
+  height: 280px;
+  margin: 12px;
+  border-radius: 24px;
+
+  justify-content: center;
+}
+.favIcon{
+    background: #efefef;
+    font-size: 18px;
+    
+}
+.favIcon:hover{
+    fill:  rgb(0, 202, 0);
+}
+
+.RecipeCard h2,
+.foodDetail {
+  padding-left: 12px;
+
+  background-color: #efefef;
+}
+
+.RecipeCard h2{
+    font-weight: 600;
+}
+.primaryButton {
+  background-color: rgb(0, 202, 0);
+  color: white;
+  padding: 12px;
+  width: 40%;
+  font-size: 14px;
+  margin-left: 12px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.primaryButton:hover{
+    background-color: white;
+    border: 1px solid rgb(0, 202, 0);
+    color: rgb(0, 202, 0);
+}
+.recipeHeading{
+    display: flex;
+    justify-content: space-between;
+   margin-right: 12px;
+}
+
+
+.recipeTipsContent{
+    display: flex;
+    flex-direction: row;
+}
+.recipeTipsContent p{
+    padding: 24px;
 }
