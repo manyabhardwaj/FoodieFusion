@@ -1,0 +1,37 @@
+* {
+  background-color: #fefefe;
+}
+.Navbar {
+}
+.NavElement {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+  padding: 24px;
+  background: #ffff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.Logo {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(0, 202, 0);
+  font-family: sans-serif;
+}
+.NavItem {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+}
+.NavItem a {
+  text-decoration: none;
+  color: rgb(0, 202, 0);
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  font-family: sans-serif;
+}
+.NavItem a:hover {
+  color: rgb(0, 202, 0);
+  font-weight: 600;
+}
